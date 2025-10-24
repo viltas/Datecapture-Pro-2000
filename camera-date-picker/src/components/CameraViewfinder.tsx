@@ -230,7 +230,7 @@ export function CameraViewfinder({
             case 'mode':
                 return (
                     <div className="text-amber-400 animate-pulse uppercase tracking-wider">
-                        {mode} CAPTURED - SWITCH DIAL
+                        {mode} CAPTURED - SWITCH MODE
                     </div>
                 );
             default:
