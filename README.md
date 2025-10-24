@@ -1,7 +1,6 @@
-# ...What?
+# DateCapture Pro 2000 - Date Picker
 
-This is a really, really bad date picker made as a joke for the Bad UX World Cup (badux.lol).
+A retro-inspired **React + TypeScript + TailwindCSS** app that simulates a camera interface for capturing dates using animated dials, knobs, and a digital viewfinder. Made as an entry for Bad UX World Cup. The goal was to design a date picker with as bad user experience as possible.
 
-See: https://viltas.github.io/Datecapture-Pro-2000/
-
-A proper README.md coming soon. Maybe...
+## Demo
+https://viltas.github.io/Datecapture-Pro-2000/
