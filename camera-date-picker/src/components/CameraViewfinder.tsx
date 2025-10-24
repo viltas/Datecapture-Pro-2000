@@ -20,7 +20,7 @@ interface FloatingDigit {
     currentY?: number;
 }
 
-export function CameraViewfinder({ mode, onCapture, onFocusChange, flash, isModeComplete, isInvalid, isDateComplete }: CameraViewfinderProps) {
+export function CameraViewfinder({ mode, onFocusChange, flash, isModeComplete, isInvalid, isDateComplete }: CameraViewfinderProps) {
     const [floatingDigits, setFloatingDigits] = useState<FloatingDigit[]>([]);
     const [focusedDigit, setFocusedDigit] = useState<number | null>(null);
     const digitQueueRef = useRef<number[]>([]);

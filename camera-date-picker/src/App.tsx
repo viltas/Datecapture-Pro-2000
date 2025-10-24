@@ -45,7 +45,7 @@ export default function App() {
         break;
     }
   };
-
+/*
   const clearCurrentInput = () => {
     switch (inputMode) {
       case 'month':
@@ -59,7 +59,7 @@ export default function App() {
         break;
     }
   };
-
+*/
   const clearAll = () => {
     setIsRewinding(true);
     setTimeout(() => {
