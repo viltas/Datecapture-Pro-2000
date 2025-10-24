@@ -45,7 +45,7 @@ export default function App() {
         break;
     }
   };
-
+/*
   const clearCurrentInput = () => {
     switch (inputMode) {
       case 'month':
@@ -59,7 +59,7 @@ export default function App() {
         break;
     }
   };
-
+*/
   const clearAll = () => {
     setIsRewinding(true);
     setTimeout(() => {
@@ -304,7 +304,6 @@ export default function App() {
             <div className="flex-shrink-0">
               <CameraViewfinder
                 mode={inputMode}
-                onCapture={handleCapture}
                 onFocusChange={setFocusedDigit}
                 flash={flash}
                 isModeComplete={isModeComplete()}
